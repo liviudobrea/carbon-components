@@ -7,6 +7,8 @@
 @import '../../globals/scss/layout';
 @import '../../globals/scss/import-once';
 @import '../../globals/scss/vars';
+@import '../../globals/scss/helper-mixins';
+@import '../../globals/scss/layer';
 
 $list-box-width: 100%;
 $list-box-height: rem(40px);
@@ -160,7 +162,6 @@ $list-box-menu-width: rem(300px);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
     background-color: $brand-01;
     height: rem(18px);
     color: white;
